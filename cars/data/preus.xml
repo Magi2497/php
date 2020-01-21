@@ -1,0 +1,11 @@
+<?xml version='1.0' standalone='yes'?>
+<cotxes>
+  <cotxe code="001">
+    <name>Dacia</name>
+    <precio>30000</precio>
+    <entrada>6000</entrada>
+    <tae>8</tae>
+    <meses>60</meses>
+    <precio_final>40000</precio_final>
+  </cotxe>
+</cotxes>

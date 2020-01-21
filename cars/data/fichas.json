@@ -1,0 +1,34 @@
+{
+  "001": {
+    "name": "Duster",
+    "header": "<b>DISEÑO</b>",
+    "purpose": "El SUV diseñado para <span class=\"blue\">la aventura</span>",
+    "title": "El Suv diseñado para la aventura",
+    "description": "Duster potencia su carácter gracias a su diseño robusto. Atrévete a vivir nuevas aventuras en la ciudad y a explorar otras rutas.",
+    "url": "img/c1.webp"
+  },
+  "002": {
+    "name": "Sandero",
+    "header": "<b>CONFORT</b>",
+    "purpose": "El SUV diseñado para <span class=\"blue\">la aventura</span>",
+    "title": "La berlina con un estilo reforzado",
+    "description": "Diseño sólido, parrilla cromada, faros con la firma luminosa Dacia... Sandero te seducirá a primera vista.",
+    "url": "img/c2.webp"
+  },
+  "003": {
+    "name": "Logan",
+    "header": "<b>PRESTACIONES</b>",
+    "purpose": "El SUV diseñado para <span class=\"blue\">la aventura</span>",
+    "title": "El Suv diseñado para la aventura",
+    "description": "Duster potencia su carácter gracias a su diseño robusto. Atrévete a vivir nuevas aventuras en la ciudad y a explorar otras rutas.",
+    "url": "img/c3.webp"
+  },
+  "004": {
+    "name": "Dokker",
+    "header": "<b>VELOCIDAD</b>",
+    "purpose": "El SUV diseñado para <span class=\"blue\">la aventura</span>",
+    "title": "La furgoneta Docker",
+    "description": "Diseño sólido, parrilla cromada, faros con la firma luminosa Dacia... Sandero te seducirá a primera vista.",
+    "url": "img/c4.webp"
+  }
+}

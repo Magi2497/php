@@ -1,0 +1,32 @@
+{
+  "cotxes": [
+    {
+      "code": "001",
+      "name": "Duster",
+      "title": "El Suv diseñado para la aventura",
+      "description": "Duster potencia su carácter gracias a su diseño robusto. Atrévete a vivir nuevas aventuras en la ciudad y a explorar otras rutas.",
+      "url": "img/c1.webp"
+    },
+    {
+      "code": "002",
+      "name": "Sandero",
+      "title": "La berlina con un estilo reforzado",
+      "description": "Diseño sólido, parrilla cromada, faros con la firma luminosa Dacia... Sandero te seducirá a primera vista.",
+      "url": "img/c2.webp"
+    },
+    {
+      "code": "003",
+      "name": "Un Altre",
+      "title": "El Suv diseñado para la aventura",
+      "description": "Duster potencia su carácter gracias a su diseño robusto. Atrévete a vivir nuevas aventuras en la ciudad y a explorar otras rutas.",
+      "url": "img/c3.webp"
+    },
+    {
+      "code": "004",
+      "name": "Sanderos",
+      "title": "La berlina SANDERO",
+      "description": "Diseño sólido, parrilla cromada, faros con la firma luminosa Dacia... Sandero te seducirá a primera vista.",
+      "url": "img/c4.webp"
+    }
+  ]
+}
