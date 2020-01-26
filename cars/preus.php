@@ -57,11 +57,13 @@
         <?php
 
 foreach ($preus as $cotxe) {
+    echo '<tr>';
     echo '<td>', $cotxe->name, '</td>';
     echo '<td>', number_format(intval($cotxe->precio), 2, ',', '.'), '€ </td>';
-    echo '<td>', $cotxe->entrada, '</td>';
+    echo '<td>', number_format(intval($cotxe->entrada), 2, ',', '.'), '€ </td>';
     echo '<td><a href="ficha.php?code=', $cotxe['code'], '">Veure fitxa</a></td>';
-}
+    echo '<tr>';
+} 
 ?>
       </tbody>
       </table>

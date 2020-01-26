@@ -50,6 +50,7 @@
         <tr>
           <th scope="col">nom</th>
           <th scope="col">ref</th>
+          <th scope="col">Desde:</th>
         </tr>
       </thead>
       <tbody>
@@ -63,6 +64,10 @@ foreach ($cotxes as $cotxe) {
     if ($pos !== false) {
         echo '<td>', $cotxe['name'], '</td>';
         echo '<td><a href="ficha.php?code=', $cotxe['code'], '">Veure fitxa</a></td>';
+        echo '<td>',  number_format(intval($cotxe['Precios']), 2, ',', '.'), '€</td>';
+       
+      
+       
     }
 }
 ?>

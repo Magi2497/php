@@ -72,6 +72,15 @@
             <?php echo $car['description'] ?>
           </p>
           <p>
+          Motorización
+          </p>
+          <p>
+          <?php echo $car['Motoritzacio'] ?>
+          </p>
+          <p>
+          <?php echo $car['Motoritzacio'] ?>
+          </p>
+          <p>
             <button class="btn">Ver la galería</button>
           </p>
         </div>
