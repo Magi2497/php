@@ -1,0 +1,38 @@
+<?xml version='1.0' standalone='yes'?>
+<cotxes>
+  <cotxe code="001" marca="Dacia">
+    <name>Duster</name>
+    <precio>30000</precio>
+    <entrada>6000</entrada>
+    <tae>8</tae>
+    <meses>60</meses>
+    <precio_final>40000</precio_final>
+  </cotxe>
+    <cotxe code="002" marca="Dacia">
+    <name>Sandero</name>
+    <precio>50000</precio>
+    <entrada>5000</entrada>
+    <tae>8</tae>
+    <meses>90</meses>
+    <precio_final>60000</precio_final>
+  </cotxe>
+  <cotxe code="003" marca="Dacia">
+    <name>Logan</name>
+    <precio>70000</precio>
+    <entrada>5000</entrada>
+    <tae>8</tae>
+    <meses>90</meses>
+    <precio_final>80000</precio_final>
+  </cotxe>
+  <cotxe code="004" marca="Dacia">
+    <name>Dokker</name>
+    <precio>90000</precio>
+    <entrada>7000</entrada>
+    <tae>8</tae>
+    <meses>90</meses>
+    <precio_final>100000</precio_final>
+  </cotxe>
+
+
+
+</cotxes>
