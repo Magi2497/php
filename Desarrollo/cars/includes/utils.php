@@ -5,3 +5,4 @@ function pr($data)
     var_dump($data); // or var_dump($data);
     echo "</pre>";
 }
+?>
