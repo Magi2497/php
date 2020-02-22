@@ -34,7 +34,7 @@ ini_set("display_errors", 1);
     <!-- El teu css -->
     <style></style>
     <!-- fi -->
-    <title>Col·legis professionals</title>
+    <title>Rent A Car</title>
   </head>
 
 
@@ -49,7 +49,7 @@ imprimiéndola en pantalla
     echo "</pre>";
 }
 
-if (!$xml = file_get_contents("http://catalegdades.caib.cat/api/views/pd6s-hqjf/rows.xml?accessType=DOWNLOAD")) {
+if (!$xml = file_get_contents("http://catalegdades.caib.cat/api/views/w8ef-kbr8/rows.xml?accessType=DOWNLOAD")) {
     echo "No se ha podido cargar el archivo";
 } else {
     $xml = new SimpleXMLElement($xml);
@@ -59,37 +59,40 @@ if (!$xml = file_get_contents("http://catalegdades.caib.cat/api/views/pd6s-hqjf/
 ?>
   <body>
     <div class="container">
+    <h1><?php $localitat = $_GET['codi']?></h1>
       <div class="row">
       <div class="col">
-        <h2><?php echo "Cercador ip"; ?></h2>
+        <h2><?php echo "Rent a Car"; ?></h2>
       </div>
      <table class="table">
      <thead>
        <tr>
          <th scope="col">Nom</th>
-         <th scope="col">localitat</th>
-         <th scope="col">Funcio</th>
+         <th scope="col">Municipi</th>
          <th scope="col">Estat</th>
        </tr>
      </thead>
      <tbody>
        <?php
-foreach ($ip->results as $result) {
+foreach ($root->row as $municipi) {
+  $municipi = $item->municipi;
+  if ( $municipi == $localitat){
+  if ( $municipi == $localitat){
     echo '<tr>';
-    echo '<td>', $result->ip, '</td>';
-    echo '<td>', $result->countryname, '</td>';
-    echo '<td>', $result->isp, '</td>';
-   
+    echo '<td>', $municipi->denominaci_comercial, '</td>';
+    echo '<td>', $municipi->municipi, '</td>';
+    echo '<td>', $municipi->estat, '</td>';
     echo '</tr>';
+  }
 }
 ?>
      </tbody>
      </table>
      <div>
-     
+     <a href="index.php"> municipis</a>
      </div>
+ 
       </div>
 </div>
-
 </body>
 </html>
