@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>ex13</title>
+    <title>ex4</title>
   </head>
   <body>
 <?php
@@ -11,25 +11,32 @@ ini_set('display_errors', 1);
 ?>
 
 <form action="index.php" method="post">
+ <p>Escriu: <input type="text" name="nom" /></p>
  <p><input type="submit" name= "submit"/></p>
 </form>
 
-<?php  
 
-$dado1= rand(1 , 6); 
-$dado2= rand(1 , 6); 
+<?php 
+if(isset($_POST['submit'])){
+  $nom= $_POST['nom'];
 
-echo $dado1, $dado2 ;
-echo '<br>';
-if($dado1==$dado2){
+  
 
 
-echo ("igual");
 
 }
-
 ?>
+
+<?php 
+$c = (5/9*($_POST['nom'])-32);
+?>
+
+
+
+
+<?php echo ($c);  ?><br>
 
 
   </body>
 </html>
+

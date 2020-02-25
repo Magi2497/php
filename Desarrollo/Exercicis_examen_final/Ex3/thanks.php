@@ -29,7 +29,7 @@ include "include/db.php";
 <?php
 if(isset($_GET['id'])){
   $id = $_GET['id'];
-  $stm = $db->prepare("SELECT * FROM marca where uuid=?");
+  $stm = $db->prepare("SELECT * FROM llista where uuid=?");
   $stm->bindParam(1, $id);
   $res = $stm->execute();
 
