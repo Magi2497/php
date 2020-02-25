@@ -25,7 +25,7 @@ include "include/db.php";
  $uuid="";
  if (isset($_GET['id'])){
   $id = $_GET['id'];
-  $stm = $db->prepare("SELECT * FROM marca where uuid=?");
+  $stm = $db->prepare("SELECT * FROM llista where uuid=?");
   $stm->bindParam(1, $id);
   $res = $stm->execute();
 
@@ -41,7 +41,7 @@ include "include/db.php";
   echo "</form>";
 }
 if(isset($_POST['submit'])){
-  $stm = $db->prepare("DELETE FROM marca where  uuid=?");
+  $stm = $db->prepare("DELETE FROM llista where  uuid=?");
   $uuid=$_POST['uuid'];
   $stm->bindParam(1, $uuid);
   $stm->execute();
